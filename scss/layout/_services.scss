@@ -1,0 +1,56 @@
+.service-container {
+  background-color: $white;
+  padding: 10px;
+}
+
+.service-box__text {
+  @media screen and (min-width: 850px) {
+    min-height: 145px;
+    padding: 10px 10%;
+  }
+}
+
+.service-box {
+   background-color: $white;
+   display: block;
+   float: none;
+   padding-bottom: 50px;
+   text-align: center;
+   width: 100%;
+
+  @media screen and (min-width: 850px) {
+    float: left;
+    margin: .4% .2%;
+    padding: 0px 10px 40px;
+    width: 32.8%;
+  }
+}
+
+.service-box:first-child {
+  @media screen and (min-width: 850px) {
+   margin-left: .4%;
+ }
+}
+
+.service-box:last-child {
+  @media screen and (min-width: 850px) {
+  margin-right: .4%;
+  }
+}
+
+.fa-desktop,
+.fa-pencil-square-o,
+.fa-newspaper-o{
+  color: $navy;
+}
+
+.service-images {
+  padding: 20px 0px 10px;
+}
+
+.service-break {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 50%;
+}

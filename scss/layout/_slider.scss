@@ -1,0 +1,146 @@
+.slider-container {
+  background-color: $navy;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+
+  @media screen and (min-width: 950px) {
+    display: block;
+    padding: 10px;
+  }
+}
+
+.slider {
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider .slide-nav {
+  float: left;
+  height: 300px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.slider .slide-nav .slide {
+  display: block;
+  float: left;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 520px;
+}
+
+a.control_prev, a.control_next {
+  color: $white;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.8;
+  padding: 3%;
+  margin-top: 13em;
+}
+
+a.control_next {
+  float: right;
+}
+
+a.control_prev {
+  float: left;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+  color: $white;
+  -webkit-transition: all 0.2s ease;
+  opacity: 1;
+}
+
+.speechbubble-slider {
+  padding: 60px;
+}
+
+.speechbubble-slider {
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  margin: 15% auto;
+  padding: 10px 25px;
+  position: relative;
+  width: 90%;
+
+  @media screen and (min-width: 600px) {
+    margin: 5% auto;
+  }
+
+  @media screen and (min-width: 850px) {
+    margin: 2% auto;
+    margin-bottom: 75px;
+  }
+}
+
+.speechbubble-slider:after  {
+  color: rgba(255,255,255,0.4);
+  bottom: -18px;
+  content: '\25bc';
+  position: absolute;
+  right: 18px;
+}
+
+.cite-slider {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.testimonial-header-slider {
+  border: 4px solid $white;
+  background-size: 0px 100%;
+  color: $white;
+  margin-bottom: 50px;
+}
+
+.testimonials-container-slider {
+  background-color: $navy;
+  padding: 10px;
+}
+
+.speechbubble__text-slider {
+  margin: 0px;
+  min-height: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.cite-slider {
+  min-height: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.source-slider {
+  @media screen and (min-width: 600px) {
+    margin-top: 50px;
+  }
+}
+
+.scrollToTop {
+  color: $white;
+  opacity: .5;
+  text-align: center;
+}
+
+.scrollToTop:hover {
+  opacity: 1;
+}
+
+.scroll-container {
+  background-color: $navy;
+}
+
+.slider-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}

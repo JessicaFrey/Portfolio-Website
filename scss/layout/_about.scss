@@ -1,0 +1,55 @@
+.about-box.about-box__top-right-text {
+  padding-top: 20px;
+}
+
+.about-container {
+  background-color: $lightGray;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-container img {
+  margin: 20px 0 10px;
+}
+
+.about-heading {
+  font-size: 1.5rem;
+}
+
+.about-text {
+  font-size: 1em;
+  letter-spacing: .4px;
+  line-height: 1.6em;
+  padding: 15px 10%;
+}
+
+.about-box {
+  display: inline;
+  margin: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .about-text {
+    padding: 5px 15%;
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .about-box.about-box__middle-left-img,
+  .about-box.about-box__top-right-text,
+  .about-box.about-box__bottom-right-text  {
+    float: right;
+    min-height: 240px;
+    width: 50%;
+  }
+
+  .about-box.about-box__top-left-img,
+  .about-box.about-box__middle-right-text,
+  .about-box.about-box__bottom-left-img {
+    float: left;
+    min-height: 240px;
+    width: 50%;
+  }
+}
